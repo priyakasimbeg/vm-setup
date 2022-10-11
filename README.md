@@ -2,7 +2,6 @@
 
 ## Clone this repo to your home directory
 ```
-cd ~
 git clone https://github.com/priyakasimbeg/vm-setup.git
 ```
 
