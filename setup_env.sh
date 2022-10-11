@@ -28,8 +28,11 @@ ngrok config add-authtoken ${auth_token}
 
 
 # Set up env variables
+DATA_DIR=~/mlcommons_data
+ROOT_DIR=~
 echo 'export DATA_DIR=~/mlcommons_data' >> ~/.bashrc
 echo 'export ROOT_DIR=~' >> ~/.bashrc
-source ~/.bashrc
 mkdir $DATA_DIR 
 gcsfuse --implicit-dirs mlcommons-data $DATA_DIR
+
+source ~/.bashrc
