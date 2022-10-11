@@ -17,7 +17,9 @@ bash vm-setup/setup_env.sh
 ```
 
 ## Optionally launch your vscode with codeserver
+The below command will take you to a tmux session with windows where the the web link and your password are printed:
 ```
 bash vm-setup/launch_codeserver.sh
 ```
+
 
