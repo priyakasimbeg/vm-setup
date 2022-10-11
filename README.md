@@ -3,7 +3,7 @@
 ## Clone this repo to your home directory
 ```
 cd ~
-git clone git@github.com:priyakasimbeg/vm-setup.git
+git clone https://github.com/priyakasimbeg/vm-setup.git
 ```
 
 ## Set up your ssh keys
