@@ -15,6 +15,9 @@ yes | pip3 install -e '.[jax_gpu]' -f 'https://storage.googleapis.com/jax-releas
 yes | pip3 install -e '.[pytorch_gpu]' -f 'https://download.pytorch.org/whl/torch_stable.html'
 yes | pip3 install -e '.[full]'
 
+# temp
+pip install wandb
+
 
 # Code-server 
 cd
