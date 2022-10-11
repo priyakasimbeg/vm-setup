@@ -3,10 +3,8 @@
 # MLCommons
 cd ~
 git clone git@github.com:mlcommons/algorithmic-efficiency.git
-cd ~/algorithmic-efficiency
-git remote add kasimbeg git@github.com:priyakasimbeg/algorithmic-efficiency.git
 
-# Set up VM
+# Set up Virtual Env
 cd ~/algorithmic-efficiency
 sudo apt-get install python3-venv
 python3 -m venv env
