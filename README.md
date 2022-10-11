@@ -12,7 +12,7 @@ bash vm-setup/generate_ssh_key.sh
 Add the generated key to your GitHub SSH keys, [see documentation](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). 
 
 ## Set up your environment
-### install the algorithmic-efficiency repo, mount the GCS data bucket, set up developer IDE
+### install the algorithmic-efficiency repo, mount the GCS data bucket, install codeserver and ngrok
 ```
 bash vm-setup/setup_env.sh
 ```
