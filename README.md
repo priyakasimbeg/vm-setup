@@ -1,6 +1,6 @@
 # vm-setup
 
-## Clone this repo to your home directory
+## Clone this repo 
 ```
 git clone https://github.com/priyakasimbeg/vm-setup.git
 ```
