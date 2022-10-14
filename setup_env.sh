@@ -5,16 +5,13 @@ cd ~
 git clone git@github.com:mlcommons/algorithmic-efficiency.git
 
 # Set up Virtual Env
-cd ~/algorithmic-efficiency
 sudo apt-get install python3-venv
 python3 -m venv env
 source env/bin/activate
+cd ~/algorithmic-efficiency
 yes | pip3 install -e '.[jax_gpu]' -f 'https://storage.googleapis.com/jax-releases/jax_cuda_releases.html'
 yes | pip3 install -e '.[pytorch_gpu]' -f 'https://download.pytorch.org/whl/torch_stable.html'
 yes | pip3 install -e '.[full]'
-
-# temp
-pip install wandb
 
 
 # Code-server 
@@ -26,14 +23,3 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 echo "Enter your authorization token (https://dashboard.ngrok.com/get-started/your-authtoken): "
 read auth_token
 ngrok config add-authtoken ${auth_token}
-
-
-# Set up env variables
-DATA_DIR=~/mlcommons_data
-ROOT_DIR=~
-echo 'export DATA_DIR=~/mlcommons_data' >> ~/.bashrc
-echo 'export ROOT_DIR=~' >> ~/.bashrc
-mkdir $DATA_DIR 
-gcsfuse --implicit-dirs mlcommons-data $DATA_DIR
-
-source ~/.bashrc
