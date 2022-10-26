@@ -5,7 +5,7 @@ cd ~
 yes | git clone git@github.com:mlcommons/algorithmic-efficiency.git
 
 # Set up Virtual Env
-sudo apt-get install python3-venv
+yes | sudo apt-get install python3-venv
 python3 -m venv env
 source env/bin/activate
 cd ~/algorithmic-efficiency
