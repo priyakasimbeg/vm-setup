@@ -2,7 +2,7 @@
 
 # MLCommons
 cd ~
-git clone git@github.com:mlcommons/algorithmic-efficiency.git
+yes | git clone git@github.com:mlcommons/algorithmic-efficiency.git
 
 # Set up Virtual Env
 sudo apt-get install python3-venv
