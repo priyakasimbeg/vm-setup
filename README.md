@@ -1,4 +1,5 @@
 # vm-setup
+Scripts for VM setups for developers of git@github.com:mlcommons/algorithmic-efficiency.git.
 
 ## Clone this repo 
 ```
