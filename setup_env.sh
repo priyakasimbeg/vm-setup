@@ -1,22 +1,6 @@
 #!/bin/bash
 
-# CUDA and cudnn installation
-# cd ~ 
-# wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run
-
-# sudo sh cuda_11.7.1_515.65.01_linux.run
-
-# wget https://www.dropbox.com/s/ds5l73rlbmpamj9/cudnn-linux-x86_64-8.5.0.96_cuda11-archive.tar.xz?dl=0
-
-# mv 'cudnn-linux-x86_64-8.5.0.96_cuda11-archive.tar.xz?dl=0' cudnn8.5.tar.xz
-
-# tar xvf cudnn8*
-
-# sudo cp cudnn-*-archive/include/cudnn*.h /usr/local/cuda/include
-# sudo cp -P cudnn-*-archive/lib/libcudnn* /usr/local/cuda/lib64
-# sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
-
-# MLCommons
+# MLCommons algorithmic efficiency repo
 cd ~
 yes | git clone git@github.com:mlcommons/algorithmic-efficiency.git
 
